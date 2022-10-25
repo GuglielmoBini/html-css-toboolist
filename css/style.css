@@ -34,6 +34,7 @@ li {
     height: 140px;
     line-height: 140px;
     background-color: white;
+    border-bottom: solid #c0c0c0;
 }
 
 #header-title {
