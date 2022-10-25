@@ -6,11 +6,21 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*UTILITY*/
+body {
+    background-color: rgb(230, 230, 230) ;
+}
+
+.container {
+    width: 45%;
+    margin: 0 auto;
+}
+
 /*HEADER*/
 #header {
     height: 140px;
     line-height: 140px;
-    background-color: rgb(230, 230, 230);
+    background-color: white;
 }
 
 #header-title {
@@ -25,4 +35,26 @@
     width: auto;
     margin-left: 30px;
     vertical-align: middle;
+}
+
+/*MAIN*/
+.button {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#task, #section {
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 8px;
+    border-color: gray;
+    color: gray;
+    border-width: 1px;
+}
+
+#task {
+    background-color: rgb(24, 131, 253);
+    color: white;
+    border-color: rgb(24, 131, 253);
+    margin-right: 5px;
 }
