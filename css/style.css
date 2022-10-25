@@ -14,8 +14,11 @@ body {
 }
 
 .container {
-    width: 45%;
-    margin: 0 auto;
+    width: 50%;
+    margin: 20px auto 60px;
+    background-color: white;
+    padding: 8px;
+    border-radius: 15px;
 }
 
 
@@ -31,10 +34,9 @@ li {
 /*HEADER*/
 
 #header {
-    height: 140px;
-    line-height: 140px;
+    height: 100px;
+    line-height: 100px;
     background-color: white;
-    border-bottom: solid #c0c0c0;
 }
 
 #header-title {
@@ -57,8 +59,8 @@ li {
 
 .button {
     display: inline-block;
-    margin-top: 20px;
-    margin-bottom: 40px;
+    margin-top: 15px;
+    margin-bottom: 30px;
 }
 
 #task, #section {
