@@ -24,8 +24,8 @@ ul {
 }
 
 li {
-    font-size: 1.3rem;
-    margin: 35px 0;
+    font-size: 1.2rem;
+    margin: 25px 0;
 }
 
 /*HEADER*/
@@ -57,6 +57,7 @@ li {
 .button {
     display: inline-block;
     margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 #task, #section {
@@ -78,8 +79,9 @@ li {
 /*LISTE*/
 
 .lists {
-    margin-top: 70px;
+    margin-top: 45px;
 }
+/*SPUNTE*/
 
 .check, .uncheck {
     font-size: 1rem;
@@ -103,17 +105,25 @@ li {
     border: solid rgb(207, 11, 11);
     border-width: 2px;
 }
+/*ETICHETTE*/
 
-.editorial, .q1-goals, .recruiting, .mobile {
+.editorial,
+ .editorial-2,
+ .q1-goals,
+ .recruiting,
+ .mobile,
+ .website,
+ .sales {
     color: beige;
     font-size: 0.7rem;
     padding: 8px;
-    border-radius: 14px;
+    border-radius: 13px;
 }
 
 .editorial {
     background-color: rgb(29, 200, 252);
 }
+
 
 .q1-goals {
     background-color: rgb(99, 19, 173);
@@ -123,6 +133,14 @@ li {
     background-color: rgb(91, 201, 124);
 }
 
-.mobile {
+.mobile, .editorial-2 {
     background-color: rgb(223, 121, 25);
 } 
+
+.website {
+    background-color: rgb(126, 45, 122);
+}
+
+.sales {
+    background-color: rgb(161, 197, 127);
+}
